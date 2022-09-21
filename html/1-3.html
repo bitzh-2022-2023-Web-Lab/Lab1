@@ -1,0 +1,57 @@
+<!--姓名：曾锦麟
+    班级：软工3班
+    实验名称：图像对齐方式应用
+    实验步骤：
+        1. 使用 img 标签引入图片
+        2. 使用不同的 style 属性设置 img 的对齐方式
+    注：由于 img align 属性已弃用，故使用 css 对其进行替代，详细样式请查看 ../css/main.css
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <title>图像对齐方式应用</title>
+</head>
+<body>
+    <div class="page">
+
+        <div class="header flex-column align-center justify-center">
+            <div class="title">
+                <h1>图像对齐方式应用</h1>
+            </div>
+        </div>
+        <hr>
+        <div class="body">
+            <div class="noalign">
+                <h3>未设置对齐方式的图像：</h3>
+                <div>
+                    <img src="../media/img/wechat.png" width="50px">
+                    PNG，便携式网络图形，其设计目的是试图替代GIF和TIFF文件格式，同时增加一些GIF文件格式所不具备的特性。
+                </div>
+            </div>
+
+            <div class="isalign" style="width: 80%;">
+                <h3>已设置对齐方式的图像：</h3>
+
+                <div>
+                    PNG，便携式网络图形，<img src="../media/img/wechat.png" width="50px" class="text-bottom">其设计目的是试图替代GIF和TIFF文件格式，同时增加一些GIF文件格式所不具备的特性。PNG使用从LZ77派生的无损数据压缩算法，一般应用于JAVA程序、网页或S60程序中，原因是它压缩比高，生成文件体积小。PNG文件的扩展名为.png
+                </div>
+                <hr>
+                <div>
+                    PNG，便携式网络图形，<img src="../media/img/wechat.png" width="50px" class="text-top">其设计目的是试图替代GIF和TIFF文件格式，同时增加一些GIF文件格式所不具备的特性。PNG使用从LZ77派生的无损数据压缩算法，一般应用于JAVA程序、网页或S60程序中，原因是它压缩比高，生成文件体积小。PNG文件的扩展名为.png
+                </div>
+                <hr>
+                <div>
+                    <img src="../media/img/wechat.png" width="50px" class="text-left">
+                    PNG，便携式网络图形，其设计目的是试图替代GIF和TIFF文件格式，同时增加一些GIF文件格式所不具备的特性。PNG使用从LZ77派生的无损数据压缩算法，一般应用于JAVA程序、网页或S60程序中，原因是它压缩比高，生成文件体积小。PNG文件的扩展名为.png。PNG图像格式的文件由一个8字节的PNG文件署名和3个以上的后续数据块，如IHDR、IDAT、IEND等组成。
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
