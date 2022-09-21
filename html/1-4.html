@@ -1,0 +1,54 @@
+<!--姓名：曾锦麟
+    班级：软工3班
+    实验名称：浮动框架导航
+    实验步骤：
+        1. 使用a标签实现导航
+        2. 使用 iframe 实现浮动框架显示外部网页
+        3. 利用a标签的target属性控制iframe标签的显示内容
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <title>浮动框架导航</title>
+</head>
+
+<body>
+    <div class="page">
+
+        <div class="header flex-column align-center justify-center">
+            <div class="title">
+                <h1>浮动框架导航</h1>
+            </div>
+        </div>
+        <hr>
+
+        <div class="body">
+            <div class="nav">
+                <div id="nav">网页导航</div>
+                <ul>
+                    <li><a href="https://cn.bing.com/" target="pageIframe">Bing</a></li>
+                    <li><a href="https://www.bilibili.com" target="pageIframe">Bilibili</a></li>
+                    <li><a href="https://www.runoob.com/" target="pageIframe">菜鸟教程</a></li>
+                    <li><a href="https://www.w3school.com.cn/" target="pageIframe">w3school</a></li>
+                    <li><a href="https://www.bitzh.edu.cn/" target="pageIframe">北京理工大学珠海学院</a></li>
+                </ul>
+            </div>
+
+             <div class="iframe flex align-center justify-center">
+                <div class="border-2px">
+                    <iframe src="https://cn.bing.com/" name="pageIframe" width="1280" height="720"></iframe>
+                </div>
+             </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
