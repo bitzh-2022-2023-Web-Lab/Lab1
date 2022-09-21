@@ -1,0 +1,76 @@
+/* 缩进2格 */
+.text-i-2{
+    text-indent:2em
+}
+
+/* 上边距50px */
+.margin-top-50{
+    margin-top: 50px;
+}
+
+/* 下边距50px */
+.margin-bottom-50{
+    margin-bottom: 50px;
+}
+
+/* 宽度100% */
+.w1-1{
+    width: 100%;
+}
+
+/* flex 布局 */
+.flex{
+    display: flex;
+}
+
+/* flex-row 布局 */
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+/* flex-column 布局 */
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+/* flex布局,水平居中 */
+.align-center{
+    align-items: center;
+}
+
+/* felx布局:垂直居中 */
+.justify-center{
+    justify-content: center;
+}
+
+/* 对齐方式：顶部对齐 */
+.text-top{
+    vertical-align: top;
+}
+
+/* 对齐方式：中间对齐 */
+.text-middle{
+    vertical-align: middle;
+}
+
+/* 对齐方式：底部对齐 */
+.text-bottom{
+    vertical-align: bottom
+}
+
+/* 左侧浮动 */
+.text-left{
+    float: left;
+}
+
+/* 右侧浮动 */
+.text-right{
+    float: right;
+}
+
+/* 边框：2px */
+.border-2px{
+    border: 2px solid black;
+}
